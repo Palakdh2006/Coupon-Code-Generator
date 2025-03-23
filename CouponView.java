@@ -13,8 +13,6 @@ public class CouponView {
         int choice = scanner.nextInt();
         return choice;
     }
-
-    // Method to display the generated coupon and discount
     public void displayCouponDetails(String couponCode, double discountPercentage) {
         System.out.println("Generate coupon code: " + couponCode);
         System.out.println("Discount Applied: " + discountPercentage + "%");
